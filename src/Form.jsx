@@ -17,7 +17,7 @@ const Form = ({ addItem }) => {
   return (
     <form onSubmit={handleSubmit}>
       <h4>grocery items</h4>
-      <div className="from-control">
+      <div className="form-control">
         <input
           type="text"
           className="form-input"
